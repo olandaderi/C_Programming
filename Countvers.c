@@ -396,7 +396,7 @@ void SnAR()
     hasil=(k3/2)*((2*A)+((k3-1)*B));
     printf("S%.f : %.2f\n",k3,hasil);
     printf("a : %.2f\n",A);
-    printf("b : %.2f\n",B);
+    printf("d : %.2f\n",B);
 }
 void UAR()
 {
@@ -417,7 +417,7 @@ void UAR()
     hasil=A+((k3-1)*B);
     printf("U%.f : %.2f\n",k3,hasil);
     printf("a : %.2f\n",A);
-    printf("b : %.2f\n",B);
+    printf("d : %.2f\n",B);
 }
 float bAR(float Un1,float Un2,float k1,float k2)
 {
@@ -478,7 +478,7 @@ void Sn()
     hasil=(A*(1-(pow(B,(k3)))))/(1-B);
     printf("S%.f : %.2f\n",k3,hasil);
     printf("a : %.2f\n",A);
-    printf("b : %.2f\n",B);
+    printf("r : %.2f\n",B);
 }
 void U()
 {
@@ -499,7 +499,7 @@ void U()
 
     printf("U%.f : %.2f\n",k3,Un(A,B,k3));
     printf("a : %.2f\n",A);
-    printf("b : %.2f\n",B);
+    printf("r : %.2f\n",B);
 }
 float b(float Un1,float Un2,float k1,float k2)
 {
