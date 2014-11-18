@@ -935,7 +935,7 @@ void load()
 
     char l[7]={"LOADING"};
     system("color f0");
-    for(j=1;j<=3;j++)
+    for(j=1;j<=2;j++)
     {
         gotoxy(69,22);
         for(i=0;i<=6;i++)
