@@ -415,7 +415,7 @@ void UAR()
     B=bAR(Un1,Un2,k1,k2);
     A=aAr(B,Un1,k1);
     hasil=A+((k3-1)*B);
-    printf("U%.f : %.2f\n",hasil);
+    printf("U%.f : %.2f\n",k3,hasil);
     printf("a : %.2f\n",A);
     printf("b : %.2f\n",B);
 }
